@@ -1,0 +1,180 @@
+:root{
+    --color-link:#FF2D37;
+    --text-secondary:#9D9CB2;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+input,textarea{
+    outline: none;
+    border: none;
+}
+/* input::placeholder,textarea::placeholder{
+    font-weight: 500;
+    color: #D7D1DD;
+    font-size: 1.2rem;
+} */
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+body {
+    min-height: 100vh;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+}
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+.fw-4{
+    font-weight: 400;
+    line-height: 1.7;
+}
+.link-hover{
+    color: #282828;
+    transition: 0s;
+}
+.color-red{
+    color: var(--color-link);
+}
+.link-hover:hover{
+    color: var(--color-link);
+}
+.color-secondary{
+    color: var(--text-secondary);
+}
+::-webkit-scrollbar {
+    width: 5px; /* Chiều rộng của thanh cuộn */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF2D37; /* Màu nền của thanh cuộn */
+    border-radius: 5px; /* Độ cong góc của thanh cuộn */
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #ffff; /* Màu nền của vùng chứa thanh cuộn */
+  }
+/* breadcrumb */
+
+.breadcrumb ul{
+    gap: 10px;
+}
+.breadcrumb ul li a:hover{
+    color: var(--color-link);
+}
+.breadcrumb ul li:last-child{
+    font-size: 1.4rem;
+    color: var(--color-link);
+}
+
+.button-hover button ,.btn-link-cart{
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #FF2D37;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 2px solid #ff2d37;
+    transition: .2s;
+}
+.button-hover button:hover,.btn-link-cart:hover{
+    background-color: #fff;
+    color: #FF2D37;
+}
+.button-hover a{
+    text-decoration: underline;
+}
+.wrap-text{
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hiển thị dấu ba chấm */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Số dòng tối đa */
+    -webkit-box-orient: vertical;
+  }
+@keyframes showtop{
+    from{
+        opacity: 0;
+        transform: translate(0,50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+.animationTop{
+    animation: showtop 0.5s ease-in-out 1 forwards;
+}
+@keyframes showleft{
+    from{
+        opacity: 0;
+        transform: translate(50px,0px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+.animationLeft{
+    animation: showleft 0.5s ease-in-out 1 forwards;
+}
+.delay-01{
+    animation-delay:0.1s !important;
+}
+.delay-02{
+    animation-delay:0.2s !important;
+}
+.delay-03{
+    animation-delay:0.3s !important;
+}
+.delay-04{
+    animation-delay:0.4s !important;
+}
+.delay-05{
+    animation-delay:0.5s !important;
+}
+.delay-06{
+    animation-delay:0.6s !important;
+}
+.delay-07{
+    animation-delay:0.7s !important;
+}
+.delay-08{
+    animation-delay:0.8s !important;
+}
+.delay-09{
+    animation-delay:0.9s !important;
+}
+.delay-1{
+    animation-delay:1s !important;
+}
+.delay-2{
+    animation-delay:2s !important;
+}
+

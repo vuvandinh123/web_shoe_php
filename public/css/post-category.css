@@ -1,0 +1,33 @@
+.article_lq{
+    border: 1px dashed #FF2D37;
+}
+.article_lq ul{
+    list-style: disc;
+}
+.comment::-webkit-scrollbar {
+    width: 5px; /* Chiều rộng của thanh cuộn */
+}
+
+.comment::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* Màu nền của thanh cuộn */
+    border-radius: 5px; /* Độ cong góc của thanh cuộn */
+  }
+  
+  .comment::-webkit-scrollbar-track {
+    background-color: #ffff; /* Màu nền của vùng chứa thanh cuộn */
+  }
+.comment{
+    padding: 10px;
+    height: 500px;
+    overflow: scroll;
+}
+.comment-user-item{
+    display: grid;
+    grid-template-columns: 6% auto;
+}
+.comment-user .user-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}

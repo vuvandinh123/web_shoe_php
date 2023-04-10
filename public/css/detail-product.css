@@ -1,0 +1,231 @@
+
+.details-image-items{
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-image-items>div{
+    width: 100%;
+    height: 100%;
+}
+.detail-item{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.detail-item img{
+    width: 100%;
+    height: 100%;
+}
+.details-image-items .detail-item:hover{
+    border: 1px solid #FF5E3D;
+    box-shadow: 0 0 5px rgba(207, 74, 74, 0.4);
+}
+.details-active{
+    border: 3px solid #FF5E3D !important;
+    padding: 3px;
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+.content::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    border-bottom: 1px dashed #FF5E3D;
+    top: 7.5px;
+    left: 15px;
+    
+    color: #FF5E3D;
+}
+.group-status div:first-child{
+    position: relative;
+}
+.group-status div:first-child::after{
+    content: '';
+    height: 13px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 3px;
+    right: -15px;
+}
+.product-reviews-size a{
+    color: #337ab7;
+}
+.product-reviews-size a:hover{
+    text-decoration: underline;
+}
+.soluong button{
+    width: 35px;
+    height:35px;
+    background: transparent;
+    font-size: 1.7rem;
+    border: .5px solid rgba(0, 0, 0, 0.1);
+}
+.soluong input[type="number"]{
+    height: 35px;
+    width: 50px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    text-align: center;
+    border: .5px solid rgba(0, 0, 0, 0.1);
+
+}
+.soluong input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.button-action button{
+    padding: 5px 70px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #FF2D37;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border: 2px solid #ff2d37;
+    transition: .2s;
+}
+.button-action button:hover{
+    background-color: #fff;
+    color: #FF2D37;
+}
+.button-action button:last-child{
+    background-color: #337ab7;
+}
+.support{
+    margin-left: 10px;
+    width: 250px;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 20px;
+    height: 50px;
+    color: #ff2d37;
+    
+}
+
+.support:after {
+    content: "\f095";
+    font-family: 'FontAwesome';
+    font-size: 2.3rem;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    color: #fff;
+}
+.support::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: -2px;
+    
+}
+.support:hover{
+    background-color: rgba(255, 77, 0, 0.514);
+    color: #fff;
+    cursor: pointer;
+}
+.tab ul li{
+    padding: 10px 35px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;;
+}
+.active-tab{
+    background-color: #FF2D37;
+    color: #fff;
+    
+}
+.color-link-mini{
+    color: #000;
+    transition: .3s;
+    cursor: pointer;
+}
+.color-link-mini:hover{
+    color: #FF2D37;
+}
+.slick-next ,.slick-prev{
+    height: 100px;
+    width: 30px;
+    background-color: transparent;
+}
+.tab-content *{
+    color: #9d9c9c;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+.list-product-mini{
+    overflow-y: scroll;
+    height: 550px;
+    overflow-x: hidden;
+}
+
+
+
+.size-product{
+    display: flex;
+}
+.size-product input{
+    display: none;
+}
+.size-product .size-item-product label{
+    width: 50px;
+    height:30px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.size-item-product input:checked + label::after{
+    background: url(https://bizweb.dktcdn.net/100/342/645/themes/701397/assets/checked.png?1664094665337) no-repeat;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height:20px;
+    bottom: -6px;
+    right: -6px;
+}
+.size-item-product input:checked + label{
+    border: 1px solid #FF2D37 !important;
+    color: #FF2D37;
+}
+
+.minus:hover,.plus:hover{
+    background-color: #eceaea;
+}
+
+@media only screen and (max-width: 768px ){
+    
+    .details-image-items{
+        width: 100%;
+        height: 100px;
+    }
+    
+    .support{
+        width: 100%;
+    }
+    .slick-next ,.slick-prev{
+        height: 100%;
+        width: 30px;
+        background-color: transparent;
+    }
+}

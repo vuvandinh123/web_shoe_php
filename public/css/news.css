@@ -1,0 +1,20 @@
+.category-wrap-left ul li{
+    align-items: baseline;
+}
+.category-wrap-left ul li a{
+    width: 90%;
+}
+.category-wrap-left ul li:hover a{
+    color: #FF2D37;
+}
+.category-wrap-left ul li i{
+
+    cursor: pointer;
+}
+.category-dropdow{
+    position: relative;
+}
+.category-dropdow ul{
+    width: 300px;
+    position: relative;
+}

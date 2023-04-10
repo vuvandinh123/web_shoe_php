@@ -1,0 +1,167 @@
+[
+    {
+        "id":1,
+        "name":"Trang chủ",
+        "link":"http://127.0.0.1:5500/views/news.html"
+    },
+    {
+        "id":2,
+        "name":"Sản phẩm",
+        "category":[
+            {
+                "id":1,
+                "name":"Giày nam",
+                "link":"http://127.0.0.1:5500/views/news.html",
+                "category2":[
+                    {
+                    "id":1,
+                    "name":"Giày lười, giày mọi",
+                    "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":2,
+                        "name":"Giày casual",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":3,
+                        "name":"Giày bốt nam",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":4,
+                        "name":"Sneaker nam",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":5,
+                        "name":"Giày tăng chiều cao",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":6,
+                        "name":"Xăng đan, dép kẹp",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    }
+                    
+            ]
+            },
+            {
+                "id":2,
+                "name":"Giày nữ",
+                "link":"http://127.0.0.1:5500/views/news.html",
+                "category2":[
+                    {
+                    "id":1,
+                    "name":"Giày cao gót",
+                    "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":2,
+                        "name":"Giày xăng đan",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":3,
+                        "name":"Giày búp bê",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":4,
+                        "name":"Giày vải",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":5,
+                        "name":"Guốc",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":6,
+                        "name":"Giày bốt",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    }
+                    
+            ]
+            },
+            {
+                "id":3,
+                "name":"Giày bé trai",
+                "link":"http://127.0.0.1:5500/views/news.html",
+                "category2":[
+                    {
+                    "id":1,
+                    "name":"Giày thể thao bé trai",
+                    "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":2,
+                        "name":"Xăng đan bé trai",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":3,
+                        "name":"Giày siêu nhân bé trai",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":4,
+                        "name":"Giày tập đi bé trai",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":5,
+                        "name":"Giày vải bé trai",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    },
+                    {
+                        "id":6,
+                        "name":"Dép bé trai",
+                        "link":"http://127.0.0.1:5500/views/news.html"
+                    }
+                    
+            ]
+            },
+            {
+                "id":4,
+                "name":"Giày tây",
+                "link":"http://127.0.0.1:5500/views/news.html"
+            }
+        ],
+        "link":"http://127.0.0.1:5500/views/news.html"
+    },
+    {
+        "id":3,
+        "name":"Giày thể thao",
+        "link":"http://127.0.0.1:5500/views/news.html",
+        "category":[
+            {
+                "id":1,
+                "name":"Giày ultra boots"
+            },
+            {
+                "id":2,
+                "name":"Giày chạy bộ"
+            },
+            {
+                "id":3,
+                "name":"Giày đi phượt"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"Liên hệ",
+        "link":"http://127.0.0.1:5500/views/news.html"
+    },
+    {
+        "id":5,
+        "name":"Giới thiệu",
+        "link":"http://127.0.0.1:5500/views/news.html"
+    },
+    {
+        "id":6,
+        "name":"Tin tức",
+        "link":"http://127.0.0.1:5500/views/news.html"
+    }
+]
